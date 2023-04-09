@@ -1,0 +1,30 @@
+<form (ngSubmit)="createUser()">
+    <br/>
+    <div>
+    <img src="../../assets/Logo/pa logo.png" class="logo"/>
+  </div>
+  <br/>
+  <div class="form-group">
+  <input type="text"  class="exampleInputEmail1" placeholder="First Name" name="user" [(ngModel)]="firstName">
+</div>
+<div class="form-group">
+    <div>
+</div>
+  <input type="text"  class="exampleInputEmail1" placeholder="Last Name" name="user" [(ngModel)]="lastName">
+</div>
+<div class="form-group">
+  <input type="date"  class="exampleInputEmail1"  name="user" [(ngModel)]="DOB">
+</div>
+<div class="form-group">
+    <input type="tel"  class="exampleInputEmail1" placeholder="phone #" name="user" [(ngModel)]="phoneNumber">
+  </div>
+<div class="form-group">
+  <input type="text"  class="exampleInputEmail1" placeholder="Username" name="user" [(ngModel)]="userName">
+</div>
+    <div class="form-group">
+      <input type="password" class="password" id="exampleInputPassword1" placeholder="Password" name="pass" [(ngModel)]="password">
+    </div>
+    <div>
+    <button type="submit"  class="btn btn-primary" id="button">Submit</button>
+  </div>
+  </form>

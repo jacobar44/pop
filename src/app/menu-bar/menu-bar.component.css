@@ -1,0 +1,17 @@
+.nav-item{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#search{
+    width: 250px;
+}
+
+.nav-item:hover{
+background-color: #272219;
+}
+#logo:hover{
+    background-color: #272219;
+}
+#magnify:hover{
+    background-color: #272219;
+}
